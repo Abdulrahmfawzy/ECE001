@@ -4,17 +4,79 @@
     <title> Linux</title> 
    <link  rel="stylesheet" href=""/>
 </head>
-<body  dir="ltr"  > 
-    <a href="index.html"><h1>Operating Systems</h1></a>
-    <ul > 
-       <li>
-           <a href="Microsoft Windows.html" target="_blank">
-            <h4>Microsoft Windows</h4></a>
-        </li> 
-        <li><a href="macOS.html" target="_blank"><h4>macOS </h4></li> </a>
-        <li><a href="Linux .html" target="_blank"><h4>Linux </h4></li> </a>
-    </ul> 
-    <center>
+<body    dir="ltr"  > 
+  <center><button><a href="index.html"><h1>Operating Systems</h1></a>
+    <ul > </button>
+        <br>
+        <br>    
+    <button><a href="Microsoft Windows.html" target="_blank">
+            <h4>Microsoft Windows</h4></a></button>
+            <button><a href="macOS.html" target="_blank"><h4>macOS </h4> </a></button> </center>
+
+<h1>Linux</h1>            
+<p>Linux is one of popular version of UNIX operating System. It is open source as its source 
+  code is freely available. It is free to use. Linux was designed considering UNIX compatibility.
+   Its functionality list is quite similar to that of UNIX.</p>
+
+<h2>Components of Linux System</h2>
+<p>Linux Operating System has primarily three components</p>
+   <li><b>Kernel</b> − Kernel is the core part of Linux. It is responsible for all major
+ activities of this operating system. It consists of various modules and it 
+ interacts directly with the underlying hardware. Kernel provides the required abstraction
+  to hide low level hardware details to system or application programs.</li>
+
+ <li><b>System Library</b>− System libraries are special functions or programs
+               using which application programs or system utilities accesses Kernel's 
+               features. These libraries implement most of the functionalities of the 
+               operating system and do not requires kernel module's code access rights.</li>    
+
+ <li><b>System Utility</b> − System Utility programs are responsible to
+               do specialized, individual level tasks.</li>
+    <img src="C:\Users\M.B\Desktop\pro\Abdulrahmanalaa\linux_os.jpg"  alt="Linux" >    
+    
+<h2>Kernel Mode vs User Mode</h2>
+
+      <p>Kernel component code executes in a special privileged mode called kernel mode 
+  with full access to all resources of the computer. This code represents a single process, 
+  executes in single address space and do not require any
+   context switch and hence is very efficient and fast. Kernel runs each processes and provides
+    system services to processes, provides protected access to hardware to processes.
+
+  Support code which is not required to run in kernel 
+  mode is in System Library. User programs and other system programs works 
+  in User Mode which has no access to system hardware and kernel code. User programs/ utilities 
+  use System libraries to access Kernel functions to get system's low level tasks.</p>
+
+<h2>Basic Features</h2>
+  <p>Following are some of the important features of Linux Operating System.</p>
+<p>   <b>Portable</b>− Portability means software can works on different types of 
+  hardware in same way. Linux kernel and application programs supports their installation
+   on any kind of hardware platform.</p>
+ 
+<p><b>Open Source</b>− Linux source code is freely available and it is community based development project. 
+Multiple teams work in collaboration to enhance the capability of Linux operating system and it is continuously evolving.</p>
+<p><b>Open Source</b> − Linux source code is freely available and it is community based development project.
+   Multiple teams work in collaboration to enhance the capability of Linux operating system and it is continuously 
+   evolving.</p>
+   <p><b>Multiprogramming</b>− Linux is a multiprogramming system means multiple applications can run at same time.</p>
+ 
+   <p><b>Hierarchical File System</b>− Linux provides a standard file structure in which system files/ user files are arranged.</p>
+ 
+   <p><b>Shell</b>− Linux provides a special interpreter program which can be used to execute commands of the operating system. It can be used to do various types of operations, call application programs. etc.</p>
+   <p><b>Security </b>− Linux provides user security using authentication features like password protection/ controlled access to specific files/ encryption of data.</p>
+
+
+   <h2>Architecture</h2>
+<p>The following illustration shows the architecture of a Linux system −   </p><img src="C:\Users\M.B\Desktop\pro\Abdulrahmanalaa\linux_architecture.jpg" alt="linux">
+<P>The architecture of a Linux System consists of the following layers −</P>
+ 
+<p><b>Hardware layer</b>− Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).</p>
+<p><b>Kernel</b>− It is the core component of Operating System, interacts directly with hardware, provides low level services to upper layer components.</p>
+<p><b>Shell </b>− An interface to kernel, hiding complexity of kernel's functions from users. The shell takes commands from the user and executes kernel's functions.</p>
+<p><b>Utilities</b> − Utility programs that provide the user most of the functionalities of an operating systems.</p>
+
+<h1>Timeline of releases</h1>
+
         <table border="2" >
           <tr> <th colspan="5"><h1><b>Linux</b> <img src="linux.png" alt="Linux" width="100" ></h1> </th> </tr> 
           <tr> <td>Version</td> <td>Ubuntu </td>
@@ -22,6 +84,6 @@
           <tr> <td>Release Date</td><td>2004</td><td>2006</td>
             <td>2009</td> <td>2012</td> 
       </table>
-      </center>
+              
 </body>
 </html>
